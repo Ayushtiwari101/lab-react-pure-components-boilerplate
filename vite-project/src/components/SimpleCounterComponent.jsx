@@ -27,7 +27,7 @@ class SimpleCounterComponent extends Component {
         console.log("This is Simple Component")
         return(
             <div>
-                <h1>Simple Counter</h1>
+                <h1>Simple Component</h1>
                 <p>{this.state.counter}</p>
 
                 <button onClick={this.toggle}   style={{
