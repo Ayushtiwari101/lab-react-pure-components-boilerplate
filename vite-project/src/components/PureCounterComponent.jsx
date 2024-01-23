@@ -27,7 +27,7 @@ class PureCounterComponent extends Component {
         console.log("This is Pure Component")
         return(
             <div>
-                <h1>Pure Counter</h1>
+                <h1>Pure Components</h1>
                 <p>{this.state.counter}</p>
 
                 <button onClick={this.toggle}   style={{
